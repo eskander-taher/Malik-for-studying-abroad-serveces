@@ -1,6 +1,6 @@
 /* variables */
 :root{
-    --hue:220;
+    --hue:20;
     --saturation: 70%;
     --lightness: 55%;
     --main-color: hsl(var(--hue),var(--saturation),var(--lightness));
