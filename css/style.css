@@ -53,7 +53,6 @@ body{
     line-height: 1.5;
     color: var(--text-dark-gray);
     background-color: var(--body-bg-color);
-    -webkit-text-size-adjust: 100%;
     -webkit-top-highlight-color: transparent;
 }
 a{
@@ -133,7 +132,6 @@ img{
 .section-title .title::after{
     right: 0;
 }
-
 .section-title .sub-title{
     font-size: var(--fs-3xl);
 }
@@ -151,7 +149,6 @@ img{
     border: 2px solid transparent;
     border-radius: 30px;
     vertical-align: middle;
-    user-select: none;
     transition: all 0.3s ease;
 }
 .btn:hover{
@@ -159,6 +156,7 @@ img{
     color: var(--main-color);
     border-color: var(--main-color);
 }
+
 /* container */
 .container{
     max-width: 1170px;
@@ -188,17 +186,14 @@ img{
     transform: translateY(calc(-100% - 10px));
     transition: transform 0.5s ease;
 }
-
 .header.bg-reveal::before{
     transform: translateY(0);
 }
-
 .header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .header .logo{
     text-align: center;
 }
@@ -208,7 +203,6 @@ img{
     font-weight: 900;
     text-align: center;
 }
-
 .header .logo span{
     font-size: 12px;
     display: block;
@@ -216,12 +210,10 @@ img{
     color: var(--text-x-dark-gray);
     line-height: 1;
 }
-
 .nav li{
     display: inline-block;
     margin-right: 35px;
 }
-
 .nav a{
     font-size: var(--fs-md);
     color: var(--text-x-dark-gray);
@@ -230,11 +222,9 @@ img{
     padding: 10px 0;
     transition: color 0.3s ease;
 }
-
 .nav a:hover{
     color: var(--main-color);
 }
-
 .nav-toggler{
     display: none;
 }
@@ -278,6 +268,9 @@ img{
 }
 
 /* about */
+.about{
+    padding-top: 100px;
+}
 .about-img,
 .about-text{
     grid-column: span 6;
@@ -330,6 +323,9 @@ img{
 }
 
 /* services */
+.services{
+    padding-top: 100px;
+}
 .services-item{
     grid-column: span 3;
     text-align: center;
@@ -351,7 +347,6 @@ img{
 .services-item:hover .img-box img{
     transform: scale(1.5);
 }
-
 .services-item h3{
     font-size: var(--fs-xl);
     font-weight: 500;
