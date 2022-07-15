@@ -8,19 +8,19 @@
     /* text-colors */
     --text-white: hsl(0,0%,100%);
     --text-light-gray: hsl(0,0%,96%);
-    --text-dark-gray: hsl(0,0%,20%);
-    --text-x-dark-gray: hsl(0,0%,10%);
+    --text-dark-gray: hsl(0,0%,84%);
+    --text-x-dark-gray: hsl(0,0%,94%);
 
     /* bg colors */
-    --body-bg-color: hsl(var(--hue),60%,94%);
-    --bg-color: hsl(var(--hue),60%,94%);
+    --body-bg-color: hsl(var(--hue),20%,10%);
+    --bg-color: hsl(var(--hue),13%,17%);
     --bg-white: hsl(0,0%,100%);
     
     /* border color */
-    --border-color: hsl(var(--hue),48%,80%);
+    --border-color: hsl(var(--hue),15%,30%);
     
     /* shadow */
-    --shadow: 0 0 10px hsla(var(--hue),57%,63%, 0.3);
+    --shadow: 0 0 10px hsla(var(--hue),19%,7%, 0.9);
     --focus-shadow: 0 0 10px hsla(var(--hue),57%,63%, 0.6);
     
     /* font size */
